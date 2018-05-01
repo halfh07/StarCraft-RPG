@@ -9,20 +9,13 @@ package starcraft.rpg;
  *
  * @author Alons
  */
-public class Protoss
+public class Protoss extends AtributosGlobales
 {
-    public float size;
-    public float cargo;
-    public int armor;
-    public int health;
+
     public int shield;
-    public char attributos;
-    public int ataqueT;
-    public int ataqueA;
-    public int bonus;
-    public float cooldown;
-    public float speed;
-    public float creepbonus;
-    public int rango;
-    public int vista;    
+    public void RegenerarEscudo()
+    {
+        
+    }
+ 
 }

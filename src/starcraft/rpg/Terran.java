@@ -9,19 +9,7 @@ package starcraft.rpg;
  *
  * @author Alons
  */
-public class Terran 
+public class Terran extends AtributosGlobales
 {
-    public float size;
-    public float cargo;
-    public int armor;
-    public int health;
-    public char attributos;
-    public int ataqueT;
-    public int ataqueA;
-    public int bonus;
-    public float cooldown;
-    public float speed;
-    public float creepbonus;
-    public int rango;
-    public int vista;   
+
 }
