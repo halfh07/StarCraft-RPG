@@ -9,15 +9,11 @@ package starcraft.rpg;
  *
  * @author Alons
  */
-public class StarCraftRPG {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) 
-    {
-        // TODO code application logic here
-        System.out.println ("test");
-    }
+public class herramientas {
     
+}
+class Dado {
+    int tirar() {
+        return 1 + (int)(6 * Math.random());
+    }
 }
