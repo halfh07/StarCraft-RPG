@@ -1,5 +1,5 @@
 package juegorol;
-
+import juegorol.Protoss.Adept;
 public class AtributosGlobales 
 {
     public float size;
@@ -7,9 +7,10 @@ public class AtributosGlobales
     public int armor;
     public int health;
     public int ataque;
-    public float cooldown;
+    public int cooldown;
     public int rango;
     public int vista;
+    private float shield;
     
 
     
@@ -24,6 +25,9 @@ public int getArmor(){
    }
 public int getHealth(){
        return this.health;
+   }
+public float getshield(){
+       return this.shield;
    }
 public int getAtaque(){
        return this.ataque;
@@ -60,17 +64,17 @@ public int getVista(){
 
 public static void main(String[] args) 
     {
-        /*Roach a=new Roach();
+        Adept a=new Adept();
         System.out.println("TEST DE ATRIBUTOS GLOBALES DE CADA CLASE");
         System.out.println (a.getSize());
         System.out.println (a.getCargo());
         System.out.println (a.getArmor());
         System.out.println (a.getHealth());
-        System.out.println (a.getAtaqueT());
-        System.out.println (a.getAtaqueA());
+        System.out.println (a.getshield());
+        System.out.println (a.getAtaque());
         System.out.println (a.getCooldown());
         System.out.println (a.getRango());
-        System.out.println (a.getVista());*/
+        System.out.println (a.getVista());
     Mensajes jugador=new Mensajes();
     jugador.MenuInicial();
 }

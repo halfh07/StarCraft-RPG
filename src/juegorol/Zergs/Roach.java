@@ -7,7 +7,7 @@ public class Roach extends Zerg{
         this.armor=1;
         this.health=145;
         this.ataque=16;
-        this.cooldown=(float) 1.43;
+        this.cooldown= 1;
         this.rango=4;
         this.vista=9; 
    }

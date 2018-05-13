@@ -7,7 +7,7 @@ public class Baneling extends Zerg{
         this.armor=0;
         this.health=30;
         this.ataque=20;
-        this.cooldown=(float) 0;
+        this.cooldown= 0;
         this.rango=1;
         this.vista=8; 
    }

@@ -7,7 +7,7 @@ public class Ultralisk extends Zerg{
         this.armor=2;
         this.health=500;
         this.ataque=35;
-        this.cooldown=(float) 0.497;
+        this.cooldown= 0;
         this.rango=1;
         this.vista=8; 
    }

@@ -7,7 +7,7 @@ public class Infestor extends Zerg{
         this.armor=0;
         this.health=50;
         this.ataque=8;
-        this.cooldown=(float) 1;
+        this.cooldown= 1;
         this.rango=5;
         this.vista=9; 
    }

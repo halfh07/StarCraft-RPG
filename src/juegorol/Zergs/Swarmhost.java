@@ -7,7 +7,7 @@ package juegorol.Zergs;
         this.armor=0;
         this.health=50;
         this.ataque=12;
-        this.cooldown=(float) 0;
+        this.cooldown= 0;
         this.rango=3;
         this.vista=6; 
    }

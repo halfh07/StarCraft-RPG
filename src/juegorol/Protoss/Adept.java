@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package juegorol.Protoss;
 
-/**
- *
- * @author Alons
- */
-public class Adept {
-    
+public class Adept extends Protoss 
+{
+   public Adept()
+   {
+        this.size= 1;
+        this.cargo=2;
+        this.armor=1;
+        this.health=70;
+        this.shield=70;
+        this.ataque=10;
+        this.cooldown=2;
+        this.rango=4;
+        this.vista=12;
+   }
 }

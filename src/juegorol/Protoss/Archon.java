@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package juegorol.Protoss;
 
-/**
- *
- * @author Alons
- */
-public class Archon {
-    
+public class Archon extends Protoss 
+{
+   public Archon()
+   {
+        this.size=(float) 2.5;
+        this.cargo=4;
+        this.armor=0;
+        this.health=710;
+        this.shield=350;
+        this.ataque=250;
+        this.cooldown=1;
+        this.rango=3;
+        this.vista=9;
+   }
 }
