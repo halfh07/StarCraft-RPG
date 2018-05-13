@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package starcraft.rpg;
+package juegorol.Protoss;
 
 /**
  *
  * @author Alons
  */
-public class herramientas {
+public class Adept {
     
-}
-class Dado {
-    int tirar() {
-        return 1 + (int)(6 * Math.random());
-    }
 }

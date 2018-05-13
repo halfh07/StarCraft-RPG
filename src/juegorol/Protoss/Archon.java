@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package juegorol.Zergs;
+package juegorol.Protoss;
 
 /**
  *
- * @author denke
+ * @author Alons
  */
-public class Corruptor {
+public class Archon {
     
 }
