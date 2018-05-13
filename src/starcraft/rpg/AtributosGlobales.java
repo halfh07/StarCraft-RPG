@@ -1,3 +1,4 @@
+/*  solo soy un comentario de prueba xd*/
 package juegorol;
 
 public class AtributosGlobales 
