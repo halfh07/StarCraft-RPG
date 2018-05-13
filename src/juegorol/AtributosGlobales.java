@@ -1,5 +1,5 @@
 package juegorol;
-import juegorol.Protoss.Adept;
+import juegorol.Protoss;
 public class AtributosGlobales 
 {
     public float size;
@@ -10,8 +10,7 @@ public class AtributosGlobales
     public int cooldown;
     public int rango;
     public int vista;
-    private float shield;
-    
+
 
     
 public float getSize(){
@@ -26,9 +25,7 @@ public int getArmor(){
 public int getHealth(){
        return this.health;
    }
-public float getshield(){
-       return this.shield;
-   }
+
 public int getAtaque(){
        return this.ataque;
    }
@@ -64,7 +61,7 @@ public int getVista(){
 
 public static void main(String[] args) 
     {
-        Adept a=new Adept();
+        Archon a=new Archon();
         System.out.println("TEST DE ATRIBUTOS GLOBALES DE CADA CLASE");
         System.out.println (a.getSize());
         System.out.println (a.getCargo());

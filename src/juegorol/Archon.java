@@ -1,4 +1,4 @@
-package juegorol.Protoss;
+package juegorol;
 
 public class Archon extends Protoss 
 {
@@ -7,7 +7,7 @@ public class Archon extends Protoss
         this.size=(float) 2.5;
         this.cargo=4;
         this.armor=0;
-        this.health=710;
+        this.health=10;
         this.shield=350;
         this.ataque=250;
         this.cooldown=1;
