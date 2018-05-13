@@ -1,5 +1,4 @@
-package juegorol;
-
+package juegorol.Protoss;
 public class Adept extends Protoss 
 {
    public Adept()

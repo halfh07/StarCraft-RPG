@@ -1,5 +1,4 @@
-package juegorol;
-
+package juegorol.Protoss;
 public class Carrier extends Protoss 
 {
    public Carrier()

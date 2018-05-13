@@ -1,5 +1,4 @@
-package juegorol;
-
+package juegorol.Protoss;
 public class Disruptor extends Protoss 
 {
    public Disruptor()

@@ -1,7 +1,4 @@
-package juegorol;
-
-import juegorol.Protoss;
-
+package juegorol.Protoss;
 public class Colossus extends Protoss 
 {
    public Colossus()

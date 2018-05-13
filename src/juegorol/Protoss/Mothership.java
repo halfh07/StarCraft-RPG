@@ -1,4 +1,6 @@
-package juegorol;
+package juegorol.Protoss;
+
+
 
 public class Mothership extends Protoss 
 {

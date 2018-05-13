@@ -1,5 +1,5 @@
-package juegorol;
-
+package juegorol.Protoss;
+import juegorol.AtributosGlobales;
 public class Protoss extends AtributosGlobales
 {
         public int shield;

@@ -1,5 +1,5 @@
 package juegorol;
-import juegorol.Protoss;
+import juegorol.Protoss.Archon;
 public class AtributosGlobales 
 {
     public float size;
