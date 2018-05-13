@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//SOY UN COMENTARIO DISCRETO
-package starcraft.rpg;
+package juegorol.Zergs;
 
 /**
  *
- * @author Alons
+ * @author denke
  */
-public class Protoss extends AtributosGlobales
-{
-
-    public int shield;
-    public void RegenerarEscudo()
-    {
-        
-    }
- 
+public class Corruptor {
+    
 }
