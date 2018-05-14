@@ -1,5 +1,5 @@
 package juegorol;
-import juegorol.Protoss.Archon;
+import juegorol.Protoss.Carrier;
 public class AtributosGlobales 
 {
     public float size;
@@ -61,7 +61,7 @@ public int getVista(){
 
 public static void main(String[] args) 
     {
-        Archon a=new Archon();
+        Carrier a=new Carrier();
         System.out.println("TEST DE ATRIBUTOS GLOBALES DE CADA CLASE");
         System.out.println (a.getSize());
         System.out.println (a.getCargo());
