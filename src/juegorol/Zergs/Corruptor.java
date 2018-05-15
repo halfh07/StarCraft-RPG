@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package juegorol.Zergs;
 
-/**
- *
- * @author denke
- */
-public class Corruptor {
-    
+public class Corruptor extends Zerg{
+    public Corruptor(){
+        this.size=(float) 1.25;
+        this.cargo=0;
+        this.armor=2;
+        this.health=200;
+        this.ataque=14;
+        this.cooldown= 1;
+        this.rango=6;
+        this.vista=10; 
+   }
+   public Corruptor(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
+                   float cooldown,int rango,int vista)
+   {      
+   }
 }

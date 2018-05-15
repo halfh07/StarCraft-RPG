@@ -7,7 +7,7 @@ public class Zergling extends Zerg{
         this.armor=0;
         this.health=35;
         this.ataque=5;
-        this.cooldown= 0;
+        this.cooldown=0;
         this.rango=1;
         this.vista=8; 
    }
