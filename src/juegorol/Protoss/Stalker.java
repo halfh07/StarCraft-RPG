@@ -15,6 +15,7 @@ public class Stalker extends Protoss
         this.cooldown=1;
         this.rango=6;
         this.vista=10;
+        this.puntosunidad=2;
    }
 }
 

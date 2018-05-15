@@ -12,5 +12,6 @@ public class Disruptor extends Protoss
         this.cooldown=4;
         this.rango=5;
         this.vista=9;
+        this.puntosunidad=2;
    }
 }

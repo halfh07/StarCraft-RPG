@@ -15,5 +15,6 @@ public class Immortal extends Protoss
         this.cooldown=1;
         this.rango=6;
         this.vista=9;
+        this.puntosunidad=4;
    }
 }

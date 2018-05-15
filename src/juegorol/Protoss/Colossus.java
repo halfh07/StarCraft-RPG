@@ -12,5 +12,6 @@ public class Colossus extends Protoss
         this.cooldown=1;
         this.rango=7;
         this.vista=10;
+        this.puntosunidad=3;
    }
 }

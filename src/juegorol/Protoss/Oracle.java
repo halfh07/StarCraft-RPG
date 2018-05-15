@@ -15,6 +15,7 @@ public class Oracle extends Protoss
         this.cooldown=1;
         this.rango=4;
         this.vista=10;
+        this.puntosunidad=2;
    }
 }
 

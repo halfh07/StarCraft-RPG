@@ -12,6 +12,7 @@ public class Zealot extends Protoss
         this.cooldown=1;
         this.rango=0;
         this.vista=9;
+        this.puntosunidad=2;
    }
 }
 

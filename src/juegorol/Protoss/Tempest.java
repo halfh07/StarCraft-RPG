@@ -15,6 +15,8 @@ public class Tempest extends Protoss
         this.cooldown=2;
         this.rango=15;
         this.vista=12;
+        this.puntosunidad=5;
+        
    }
 }
 

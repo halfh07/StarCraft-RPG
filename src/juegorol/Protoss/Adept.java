@@ -12,5 +12,6 @@ public class Adept extends Protoss
         this.cooldown=2;
         this.rango=4;
         this.vista=12;
+        this.puntosunidad=1;
    }
 }

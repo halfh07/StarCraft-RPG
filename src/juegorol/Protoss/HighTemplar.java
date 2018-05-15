@@ -15,5 +15,6 @@ public class HighTemplar extends Protoss
         this.cooldown=0;
         this.rango=6;
         this.vista=10;
+        this.puntosunidad=1;
    }
 }

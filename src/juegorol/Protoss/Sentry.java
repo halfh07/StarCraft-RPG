@@ -15,6 +15,7 @@ public class Sentry extends Protoss
         this.cooldown=1;
         this.rango=5;
         this.vista=10;
+        this.puntosunidad=1;
    }
 }
 

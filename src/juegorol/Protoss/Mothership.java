@@ -15,6 +15,7 @@ public class Mothership extends Protoss
         this.cooldown=2;
         this.rango=7;
         this.vista=14;
+        this.puntosunidad=2;
    }
 }
 

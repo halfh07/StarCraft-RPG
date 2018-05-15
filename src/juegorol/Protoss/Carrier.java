@@ -12,5 +12,6 @@ public class Carrier extends Protoss
         this.cooldown=2;
         this.rango=8;
         this.vista=12;
+        this.puntosunidad=4;
    }
 }

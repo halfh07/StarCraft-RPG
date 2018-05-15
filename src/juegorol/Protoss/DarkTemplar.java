@@ -15,5 +15,6 @@ public class DarkTemplar extends Protoss
         this.cooldown=1;
         this.rango=1;
         this.vista=8;
+        this.puntosunidad=3;
    }
 }

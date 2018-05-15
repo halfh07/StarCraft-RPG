@@ -12,5 +12,6 @@ public class Archon extends Protoss
         this.cooldown=1;
         this.rango=3;
         this.vista=9;
+        this.puntosunidad=5;
    }
 }
