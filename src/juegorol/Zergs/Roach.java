@@ -10,6 +10,7 @@ public class Roach extends Zerg{
         this.cooldown= 1;
         this.rango=4;
         this.vista=9; 
+        this.puntosunidad=3;
    }
    public Roach(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
                    float cooldown,int rango,int vista)

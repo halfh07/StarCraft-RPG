@@ -1,4 +1,5 @@
 package juegorol;
+import java.util.Arrays;
 import juegorol.Protoss.Carrier;
 public class AtributosGlobales 
 {
@@ -10,8 +11,9 @@ public class AtributosGlobales
     public int cooldown;
     public int rango;
     public int vista;
-
-
+    public int puntosunidad;
+    
+    
     
 public float getSize(){
        return this.size;
@@ -61,6 +63,7 @@ public int getVista(){
 
 public static void main(String[] args) 
     {
+
         Carrier a=new Carrier();
         System.out.println("TEST DE ATRIBUTOS GLOBALES DE CADA CLASE");
         System.out.println (a.getSize());
@@ -74,5 +77,5 @@ public static void main(String[] args)
         System.out.println (a.getVista());
     Mensajes jugador=new Mensajes();
     jugador.MenuInicial();
-}
+
 } 

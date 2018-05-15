@@ -10,6 +10,7 @@ package juegorol.Zergs;
         this.cooldown= 0;
         this.rango=3;
         this.vista=6; 
+        this.puntosunidad=2;
    }
    public Swarmhost(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
                    float cooldown,int rango,int vista)

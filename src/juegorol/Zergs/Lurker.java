@@ -10,6 +10,7 @@ public class Lurker extends Zerg{
         this.cooldown= 1;
         this.rango=9;
         this.vista=10; 
+        this.puntosunidad=3;
    }
    public Lurker(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
                    float cooldown,int rango,int vista)

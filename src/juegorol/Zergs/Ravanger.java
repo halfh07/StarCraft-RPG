@@ -10,6 +10,7 @@ public class Ravanger extends Zerg{
         this.cooldown=1;
         this.rango=6;
         this.vista=9; 
+        this.puntosunidad=2;
    }
    public Ravanger(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
                    float cooldown,int rango,int vista)

@@ -10,6 +10,7 @@ public class Infestor extends Zerg{
         this.cooldown= 1;
         this.rango=5;
         this.vista=9; 
+        this.puntosunidad=3;
    }
    public Infestor(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
                    float cooldown,int rango,int vista)
