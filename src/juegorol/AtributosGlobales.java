@@ -77,5 +77,4 @@ public static void main(String[] args)
         System.out.println (a.getVista());
     Mensajes jugador=new Mensajes();
     jugador.MenuInicial();
-
-} 
+}

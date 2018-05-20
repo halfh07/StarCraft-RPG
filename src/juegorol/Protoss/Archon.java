@@ -12,7 +12,7 @@ public class Archon extends Protoss
         this.cooldown=1;
         this.rango=3;
         this.vista=9;
-        this.puntosunidad=5;
+        this.puntosunidad=;
    }
    public Archon(float size, float cargo,int armor, int health,int shield, int ataque, int cooldown, int rango, int vista, int puntosunidad)
    {

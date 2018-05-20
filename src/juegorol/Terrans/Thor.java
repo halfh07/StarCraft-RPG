@@ -6,7 +6,7 @@ public class Thor extends Terran{
         this.cargo=8;
         this.armor=1;
         this.health=400;
-        this.ataque=45;
+        this.ataque=35;
         this.cooldown= 3;
         this.rango=7;
         this.vista=11; 

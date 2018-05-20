@@ -10,10 +10,11 @@ public class Ultralisk extends Zerg{
         this.cooldown= 3;
         this.rango=1;
         this.vista=8; 
+        this.ctCurarse=18;
         this.puntosunidad=5;
    }
    public Ultralisk(float size,float cargo,int armor,int health,int ataque,
-                   int cooldown,int rango,int vista, int puntosunidad)
+                   int cooldown,int rango,int vista,int ctCurarse, int puntosunidad)
    {      
    }
 }

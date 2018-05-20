@@ -10,10 +10,11 @@ public class Zergling extends Zerg{
         this.cooldown=0;
         this.rango=1;
         this.vista=8; 
+        this.ctCurarse=2;
         this.puntosunidad=1;
    }
    public Zergling(float size,float cargo,int armor,int health,int ataque,
-                   int cooldown,int rango,int vista, int puntosunidad)
+                   int cooldown,int rango,int vista,int ctCurarse,int puntosunidad)
    {
    }
  /*     public void setSize(float size){

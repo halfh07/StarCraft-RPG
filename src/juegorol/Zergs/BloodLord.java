@@ -10,10 +10,11 @@ public class BloodLord extends Zerg{
         this.cooldown= 2;
         this.rango=1;
         this.vista=8; 
+        this.ctCurarse=15;
         this.puntosunidad=5;
    }
    public BloodLord(float size,float cargo,int armor,int health,int ataque,
-                   int cooldown,int rango,int vista,int ctCurarse,int puntosunidad)
+                   int cooldown,int rango,int vista,int ctCurarse,int ctCurarse,int puntosunidad)
    {      
    }
 }
