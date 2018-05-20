@@ -14,7 +14,7 @@ public class Banshee extends Terran{
         this.puntosunidad=2;
    }
    public Banshee(float size,float cargo,int armor,int health,int ataque,
-                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
+                   int cooldown,int rango,int vista,double bonus,int puntosunidad)
    {      
    }
 }

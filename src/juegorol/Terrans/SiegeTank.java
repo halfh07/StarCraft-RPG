@@ -14,7 +14,7 @@ public class SiegeTank extends Terran{
          this.puntosunidad=3;
    }
    public SiegeTank(float size,float cargo,int armor,int health,int ataque,
-                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
+                   int cooldown,int rango,int vista,double bonus,int puntosunidad)
    {      
    }
 }

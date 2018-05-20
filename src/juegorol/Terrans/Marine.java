@@ -13,8 +13,8 @@ public class Marine extends Terran{
          this.bonus=2;
          this.puntosunidad=1;
    }
-   public Marine(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Marine(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,double bonus,int puntosunidad)
    {      
    }
 }

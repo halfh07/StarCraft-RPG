@@ -13,8 +13,8 @@ public class Liberator  extends Terran{
         this.bonus=1.1;
         this.puntosunidad=3;
    }
-   public Liberator(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Liberator(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,double bonus,int puntosunidad)
    {      
    }
 }
