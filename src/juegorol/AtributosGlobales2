@@ -1,0 +1,246 @@
+package juegorol;
+
+import java.util.Scanner;
+import juegorol.Zergs.Zerg;
+import juegorol.Protoss.Protoss;
+import juegorol.Terrans.Terran;
+import java.util.ArrayList;
+import java.util.Random;
+
+public class AtributosGlobales 
+{
+    public float size;
+    public float cargo;
+    public int armor;
+    public int health;
+    public int healthInicial;
+    public int ataque;
+    public int cooldown;
+    public int rango;
+    public int vista;
+    public int precio;
+    public int puntos=10;
+    public int vidas;
+    public int seleccionUnidades;
+    public int accion;
+    public String nombreUnidad;
+    public String []equipo=new String [puntos];
+    public int seleccionUnidadPelea;
+    public static ArrayList <AtributosGlobales> equipoJugador = new ArrayList <AtributosGlobales>();
+    public static ArrayList <AtributosGlobales> enemigo = new ArrayList <AtributosGlobales>();
+    public int tamanoEquipo=equipoJugador.size();
+    public int numeroAleatorio;
+    public int n;
+    
+
+
+public void setSeleccionUnidades(int seleccionUnidades){
+    this.seleccionUnidades=seleccionUnidades;
+}
+    
+public int getSeleccionUnidades(){
+    return seleccionUnidades;
+}
+    
+public float getSize(){
+       return this.size;
+   }
+public float getCargo(){
+       return this.cargo;
+   }
+public int getArmor(){
+       return this.armor;
+   }
+public void setHealth(int health){
+       this.health=health;
+   }
+public int getHealth(){
+       return health;
+   }
+public int getHealthInicial(){
+       return healthInicial;
+   }
+public int getAtaque(){
+       return this.ataque;
+   }
+public int getCooldown(){
+       return this.cooldown;
+   }
+public int getRango(){
+       return this.rango;
+   }
+public int getVista(){
+       return this.vista;
+   }
+public int getPrecio(){
+       return precio;
+   }
+public String getNombreUnidad(){
+       return nombreUnidad;
+   }
+public void setVidas (int vidas){
+    this.vidas=vidas;
+}
+public int getVidas(){
+    return vidas;
+}
+
+    public void atacar ()
+        {
+            System.out.println(seleccionUnidades); 
+            enemigo.get(0).setHealth( enemigo.get(0).getHealth() - equipoJugador.get(seleccionUnidades).getAtaque());   
+            if(enemigo.get(0).getHealth() <= 0){
+                enemigo.get(0).morite();
+            }
+        }
+    
+    public void atacarEnemigo ()
+        {
+            System.out.println(seleccionUnidades); 
+            equipoJugador.get(seleccionUnidades).setHealth(equipoJugador.get(seleccionUnidades).getHealth() - enemigo.get(0).getAtaque());   
+            if(equipoJugador.get(seleccionUnidades).getHealth() <= 0){
+                equipoJugador.get(seleccionUnidades).setVidas(equipoJugador.get(seleccionUnidades).getVidas() - 1);
+                if(equipoJugador.get(seleccionUnidades).getVidas() == 0){
+                    equipoJugador.get(seleccionUnidades).morite();
+                }
+                else{
+                    equipoJugador.get(seleccionUnidades).setHealth(equipoJugador.get(seleccionUnidades).getHealthInicial());
+                }
+            }
+        }
+    
+    public void movimientoEnemigo(){
+        Random mEnemigo = new Random();   
+        numeroAleatorio = 1+mEnemigo.nextInt(6);
+        if(numeroAleatorio>=1 && numeroAleatorio<=4){
+            enemigo.get(0).atacarEnemigo();
+        }
+        else{
+            enemigo.get(0).defenderEnemigo();
+        }
+    }
+    
+    public void avanzar ()
+        {
+        
+        }
+    
+    public void usarItem ()
+        {
+        
+        }
+    
+    public void defender ()
+        {
+        
+        }
+     public void defenderEnemigo ()
+        {
+        
+        }
+     
+     public void morite ()
+        {
+            equipoJugador.remove(seleccionUnidades);
+        }
+     
+     public void moriteEnemigo ()
+        {
+            enemigo.remove(0);
+        }
+    
+    public static void pausas(){
+           try{
+           Thread.sleep(2000);
+           }catch(Exception ex){
+           ex.printStackTrace();
+           }
+        }
+   
+    public void combate(){
+
+    do{
+    System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+            Enemigos oleada=new Enemigos();
+            oleada.enemigoAleatorio();
+            System.out.println("\nHa aparecido un  "+enemigo.get(0).getNombreUnidad()+"!!!\nVida: "+enemigo.get(0).getHealth()+"\nAtaque: "+enemigo.get(0).getAtaque());
+            System.out.println("\n¿Que unidad deseas utilizar?");
+            for( n=0; n<equipoJugador.size(); n++) {
+               System.out.println(n+1+". "+equipoJugador.get(n).getNombreUnidad()+" |Vidas: "+equipoJugador.get(n).getVidas()+" |Salud: "+equipoJugador.get(n).getHealth()+" |Ataque: "+equipoJugador.get(n).getAtaque());
+            }
+            
+            Scanner entrada2=new Scanner(System.in);
+            do{
+                seleccionUnidades=entrada2.nextInt();
+             }while(seleccionUnidades >  equipoJugador.size() || seleccionUnidades <= 0);
+              AtributosGlobales a=new AtributosGlobales();
+              a.setSeleccionUnidades(seleccionUnidades=seleccionUnidades - 1);
+                
+   
+    do{       
+    System.out.println("\n¿Qué deseas hacer?\n1. Atacar\n2. Defender\n3.Usar item");
+    Scanner entradaCombate=new Scanner(System.in);
+    accion=entradaCombate.nextInt();
+    switch(accion){
+        case 1:
+            equipoJugador.get(seleccionUnidades).atacar();
+        break;
+        case 2:
+            equipoJugador.get(seleccionUnidades).defender();
+        break;
+        case 3:
+            equipoJugador.get(seleccionUnidades).usarItem();
+        break;
+        default:
+            System.out.println("Porfavor introduzca un comando valido señor(a)");
+            AtributosGlobales.pausas();
+        break;
+    }
+    enemigo.get(0).movimientoEnemigo();
+    }while(accion<1 || accion>3);
+    }while(enemigo.get(0).getHealth() > 0); 
+
+} 
+    
+
+
+public static void main(String[] args) 
+    {
+        
+        
+        /*Baneling a=new Baneling();
+        System.out.println("TEST DE ATRIBUTOS GLOBALES DE CADA CLASE");
+        System.out.println (a.getSize());
+        System.out.println (a.getCargo());
+        System.out.println (a.getArmor());
+        System.out.println (a.getHealth());
+        System.out.println (a.getAtaque());
+        System.out.println (a.getCooldown());
+        System.out.println (a.getRango());
+        System.out.println (a.getVista());    
+        System.out.println (a.getCtCurarse());*/
+        int seleccionRaza;
+        Zerg zJugador=new Zerg();
+        Protoss pJugador=new Protoss();   
+        Terran tJugador=new Terran();
+        
+        System.out.println("Juego de rol basado en starcraft <3");
+        Scanner entrada1= new Scanner (System.in);
+        System.out.println("Elige una raza \n1.-Zergs\n2.-Protoss\n3.-Terrans\nIntroduce un numero para seleccionar: ");
+        seleccionRaza=entrada1.nextInt();
+        switch(seleccionRaza){
+            case 1:
+                zJugador.unidadesZerg();
+                zJugador.combate();
+            break;    
+            case 2:
+                 pJugador.unidadesProtoss();
+            break;    
+            case 3:
+                tJugador.unidadesTerran();
+            break;
+        }
+        
+        
+}
+} 
