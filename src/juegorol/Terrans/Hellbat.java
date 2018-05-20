@@ -11,6 +11,7 @@ public class Hellbat extends Terran{
         this.rango=2;
         this.vista=10; 
          this.bonus=1.2;
+         this.puntosunidad=2;
    }
    public Hellbat(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
                    float cooldown,int rango,int vista)

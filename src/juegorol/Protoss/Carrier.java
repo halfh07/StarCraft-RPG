@@ -14,4 +14,8 @@ public class Carrier extends Protoss
         this.vista=12;
         this.puntosunidad=4;
    }
+   public Carrier(float size, float cargo,int armor, int health,int shield, int ataque, int cooldown, int rango, int vista, int puntosunidad)
+   {
+       
+   }
 }

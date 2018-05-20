@@ -12,8 +12,8 @@ public class Queen extends Zerg{
         this.vista=9; 
         this.puntosunidad=2;
    }
-   public Queen(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Queen(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista, int puntosunidad)
    {      
    }
 }

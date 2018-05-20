@@ -11,9 +11,10 @@ public class BattleCruiser extends Terran{
         this.rango=6;
         this.vista=12; 
          this.bonus=1.1;
+         this.puntosunidad=4;
    }
-   public BattleCruiser(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public BattleCruiser(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
    {      
    }
 }

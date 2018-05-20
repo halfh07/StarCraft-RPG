@@ -11,9 +11,10 @@ public class Marauder extends Terran{
         this.rango=5;
         this.vista=10; 
          this.bonus=1.3;
+         this.puntosunidad=2;
    }
-   public Marauder(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Marauder(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
    {      
    }
 }

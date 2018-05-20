@@ -12,8 +12,8 @@ public class Mutalisk extends Zerg{
         this.vista=11; 
         this.puntosunidad=3;
    }
-   public Mutalisk(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Mutalisk(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int puntosunidad)
    {      
    }
 }

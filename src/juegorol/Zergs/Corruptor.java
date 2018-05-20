@@ -12,8 +12,8 @@ public class Corruptor extends Zerg{
         this.vista=10; 
         this.puntosunidad=4;
    }
-   public Corruptor(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Corruptor(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int ctCurarse,int puntosunidad)
    {      
    }
 }

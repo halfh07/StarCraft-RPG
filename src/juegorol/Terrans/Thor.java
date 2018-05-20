@@ -11,9 +11,10 @@ public class Thor extends Terran{
         this.rango=7;
         this.vista=11; 
          this.bonus=3;
+         this.puntosunidad=3;
    }
-   public Thor(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Thor(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
    {      
    }
 }

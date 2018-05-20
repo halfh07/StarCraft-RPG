@@ -11,9 +11,10 @@ public class Reaper extends Terran{
         this.rango=5;
         this.vista=9; 
          this.bonus=3.2;
+         this.puntosunidad=1;
    }
-   public Reaper(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Reaper(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
    {      
    }    
 }

@@ -12,8 +12,8 @@ public class Hydralisk extends Zerg{
         this.vista=9; 
         this.puntosunidad=3;
    }
-   public Hydralisk(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Hydralisk(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int ctCurarse,int puntosunidad)
    {      
    }
 }

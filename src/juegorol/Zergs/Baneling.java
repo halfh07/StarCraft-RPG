@@ -13,8 +13,8 @@ public class Baneling extends Zerg{
         this.ctCurarse=2;
         this.puntosunidad=1;
    }
-   public Baneling(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Baneling(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int ctCurarse,int puntosunidad)
    {      
    }
 }

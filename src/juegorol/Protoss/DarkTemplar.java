@@ -17,4 +17,8 @@ public class DarkTemplar extends Protoss
         this.vista=8;
         this.puntosunidad=3;
    }
+   public DarkTemplar(float size, float cargo,int armor, int health,int shield, int ataque, int cooldown, int rango, int vista, int puntosunidad)
+   {
+       
+   }
 }

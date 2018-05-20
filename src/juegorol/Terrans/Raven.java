@@ -11,9 +11,10 @@ public class Raven extends Terran{
         this.rango=6;
         this.vista=7; 
          this.bonus=1.4;
+         this.puntosunidad=2;
    }
-   public Raven(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Raven(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
    {      
    }
 }

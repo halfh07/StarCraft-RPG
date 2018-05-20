@@ -14,4 +14,7 @@ public class Adept extends Protoss
         this.vista=12;
         this.puntosunidad=1;
    }
+   public Adept(float size, float cargo,int armor, int health,int shield, int ataque, int cooldown, int rango, int vista, int puntosunidad)
+   {
+   }
 }

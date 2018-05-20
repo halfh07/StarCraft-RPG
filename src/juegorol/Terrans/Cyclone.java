@@ -11,9 +11,10 @@ public class Cyclone extends Terran {
         this.rango=4;
         this.vista=11;
          this.bonus=1.5;
+         this.puntosunidad=1;
    }
-   public Cyclone(float size,float cargo,int armor,int health,int ataqueT,int ataqueA,
-                   float cooldown,int rango,int vista)
+   public Cyclone(float size,float cargo,int armor,int health,int ataque,
+                   int cooldown,int rango,int vista,int bonus,int puntosunidad)
    {      
    }
 }

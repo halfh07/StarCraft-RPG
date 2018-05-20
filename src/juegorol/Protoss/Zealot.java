@@ -14,5 +14,8 @@ public class Zealot extends Protoss
         this.vista=9;
         this.puntosunidad=2;
    }
+   public Zealot(float size, float cargo,int armor, int health,int shield, int ataque, int cooldown, int rango, int vista, int puntosunidad)
+   {
+   }
 }
 
